@@ -182,3 +182,48 @@ py.iplot(fig, filename='Les-Miserables')
 
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~priyatharsan/186.embed" height="1000px" width="1000px">
+
+
+
+
+
+<html>
+ 
+ 
+<head>
+ 
+ 
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery-1.8.0.min.js"></script>
+ 
+ 
+</head>
+
+
+<body>
+ 
+ 
+	<script type="text/javascript">
+ 
+ 
+		function doCall(){
+  
+  
+			$.get('foo').error(function(){
+   
+   
+				parent.afterCall();
+    
+    
+			});
+   
+   
+		}
+  
+  
+	</script>
+ 
+ 
+</body>
+
+
+</html>	
