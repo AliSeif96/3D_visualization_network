@@ -13,7 +13,46 @@ You can view the 3D visualization network  [here]( http://pythonfigure.gigfa.com
 
 
 
-### An Erdos-Renyi network with 40 nodes and a connection probability of 0.4 (3D visualization)
+# An Erdos-Renyi network with 40 nodes and a connection probability of 0.4 (3D visualization)
 
 We define our graph as an igraph.Graph object. Python igraph is a library for high-performance graph generation and analysis. Install the Python library with sudo pip install python-igraph.
 
+
+
+`
+import igraph as ig
+`
+
+Read graph data from a json file:
+
+`
+import json
+`
+
+`
+data = []
+`
+
+`
+f = open("datas.txt", "r")
+`
+
+`
+data = json.loads(f.read())
+`
+
+`
+x = data.keys()
+`
+
+[u'nodes', u'links']
+
+Get the number of nodes:
+
+`
+N=len(data['nodes'])
+`
+
+`
+N
+`
