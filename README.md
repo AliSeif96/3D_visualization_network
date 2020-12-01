@@ -3,5 +3,5 @@
 
 
 <p align="center">
- <img src="https://raw.githubusercontent.com/aliseif321/FFL_____Wang-Buzsaki_Runge-Kutta/main/Pictures/Feedforwardloop.gif" >
+ <img src="http://pythonfigure.gigfa.com/" >
  </p>
