@@ -4,7 +4,7 @@
 
 You can view the 3D visualization network  [here]( http://pythonfigure.gigfa.com/) 
 
-[![plotly](https://www.vectorlogo.zone/logos/plot_ly/plot_ly-ar21.svg)](https://plotly.com/python/v3/3d-network-graph/)
+[![plotly](https://www.vectorlogo.zone/logos/plot_ly/plot_ly-ar21.svg)](https://plotly.com//)
 
 
 <p align="center">
